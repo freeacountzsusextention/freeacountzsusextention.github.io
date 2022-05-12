@@ -112,7 +112,9 @@ function copyTextUSERNAME() {
     var copyText = document.getElementById("accountinfousername");
     //copyText.select();
     //copyText.setSelectionRange(0, 99999);
-    navigator.clipboard.writeText(copyText.innerText);
+    //navigator.clipboard.writeText(copyText.innerText);
+    
+  window.parent.postMessage(copyText.innerText, '*');
     
     var tooltip = document.getElementById("TooltipUSERNAME");
     tooltip.innerHTML = "Copied: " + copyText.innerText;
@@ -127,8 +129,10 @@ function copyTextPASSWORD() {
     var copyText = document.getElementById("accountinfopassword");
     //copyText.select();
     //copyText.setSelectionRange(0, 99999);
-    navigator.clipboard.writeText(copyText.innerText);
+    //navigator.clipboard.writeText(copyText.innerText);
     
+  window.parent.postMessage(copyText.innerText, '*');
+
     var tooltip = document.getElementById("TooltipPASSWORD");
     tooltip.innerHTML = "Copied: " + copyText.innerText;
   }
