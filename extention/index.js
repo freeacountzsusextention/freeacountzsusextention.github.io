@@ -23,7 +23,9 @@ document.getElementById("menu-2-5").onclick  = function(){document.getElementByI
 document.getElementById("menu-2-6").onclick  = function(){document.getElementById("menu-2").style.display = "None"; document.getElementById("menu-2-6-menu").style.display = "block"};
 
 //other
-document.getElementById("menu-3-1").onclick  = function(){document.getElementById("menu-3").style.display = "None"; document.getElementById("menu-3-1-menu").style.display = "block"};
+
+// XXX
+document.getElementById("menu-4-1").onclick  = function(){document.getElementById("menu-4").style.display = "None"; document.getElementById("menu-4-1-menu").style.display = "block"};
 
 //acounts
 
@@ -99,7 +101,6 @@ document.getElementById("menu-2-5-10").onclick  = function(){document.getElement
 //Prime Video
 
 //Spotify
-document.getElementById("menu-3-1-1").onclick  = function(){document.getElementById("menu-3-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "jessicanodland@yahoo.com";  document.getElementById("accountinfopassword").innerText = "Ottawa27!";};
 
 //acounts stuff
 document.getElementById("accountinfousernameBUTTON").onclick  = function(){copyTextUSERNAME();};
