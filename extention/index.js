@@ -100,7 +100,10 @@ document.getElementById("menu-2-5-10").onclick  = function(){document.getElement
 
 //Prime Video
 
-//Spotify
+//Pornhub
+document.getElementById("menu-4-1-1").onclick  = function(){document.getElementById("menu-4-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "caseyfitz7@gmail.com";  document.getElementById("accountinfopassword").innerText = "pb25691270";};
+document.getElementById("menu-4-1-2").onclick  = function(){document.getElementById("menu-4-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "jasonmogara@gmail.com";  document.getElementById("accountinfopassword").innerText = "Naked123";};
+document.getElementById("menu-4-1-3").onclick  = function(){document.getElementById("menu-4-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "javiergil13@hotmail.com";  document.getElementById("accountinfopassword").innerText = "Policia98";};
 
 //acounts stuff
 document.getElementById("accountinfousernameBUTTON").onclick  = function(){copyTextUSERNAME();};
