@@ -1,11 +1,8 @@
-<!DOCTYPE html>
 <html>
-    <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' index.html">
-<style>
+    <head>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <style>
+
 .menu {
   width: 100%;
 }
@@ -27,227 +24,110 @@
   color: white;
 }
 
-.loader {
-  border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid #3498db;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 2s linear infinite; /* Safari */
-  animation: spin 2s linear infinite;
+.primarymenu {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  display: block;
+  width: 306px; height: 506px;
+  padding: 0px;
+  text-align: center;
 }
 
-/* Safari */
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
+.primarymenu a {
+  background-color: rgb(43, 43, 43);
+  color: rgb(255, 255, 255);
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.primarymenu a:hover {
+  background-color: rgb(134, 134, 134);
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
+        </style>
+    </head>
+    <body style="margin: 0px; width: 306px; height: 506px;">
 
-
-.tooltip {
-  position: relative;
-  display: inline-block;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 140px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px;
-  position: absolute;
-  z-index: 1;
-  bottom: 150%;
-  left: 50%;
-  margin-left: -75px;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-</style>
-</head>
-<body style="margin: 0%;">
-    <div style="width: 300px; height: 500px; border-width: 3px; border-style: dotted; border-color: black;">
-
-
-
-
-<h1>CHOOSE</h1>
-
-<div class="menu" id="main-menu">
-  <!--<a href="#" class="active">Home</a>-->
-  <a id="main-menu-1" href="#">VPN</a>
-  <a id="main-menu-2" href="#">Streaming</a>
-  <a id="main-menu-3" href="#">Other</a>
-  <a id="main-menu-4" href="#"><b style="color: red;">XXX</b></a>
-</div>
-
-<!--<div class="loader"></div>-->
-
-<div style="display: none;" class="menu" id="menu-1">
-    <a id="menu-1-1" href="#">NordVPN</a>
-    <a id="menu-1-2" href="#">ExpressVPN</a>
-</div>
-<div style="display: none;" class="menu" id="menu-2">
-    <a id="menu-2-1" href="#">Disney+</a>
-    <a id="menu-2-2" href="#">HBO</a>
-    <a id="menu-2-3" href="#">Hulu</a>
-    <a id="menu-2-4" href="#">Netflix</a>
-    <a id="menu-2-5" href="#">Paramount+</a>
-    <a id="menu-2-6" href="#">Prime Video</a>
-</div>
-<div style="display: none;" class="menu" id="menu-3">
-</div>
-<div style="display: none;" class="menu" id="menu-4">
-  <a id="menu-4-1" href="#">Pornhub</a>
-</div>
-
-<!--VPNS-->
-<div style="display: none;" class="menu" id="menu-1-1-menu">
-    <p>FREE 100% NordVpn accounts. these were super easy to find</p>
-    <a id="menu-1-1-1" href="#">Account 1</a>
-    <a id="menu-1-1-2" href="#">Account 2</a>
-    <a id="menu-1-1-3" href="#">Account 3</a>
-    <a id="menu-1-1-4" href="#">Account 4</a>
-    <a id="menu-1-1-5" href="#">Account 5</a>
-    <a id="menu-1-1-6" href="#">Account 6</a>
-    <a id="menu-1-1-7" href="#">Account 7</a>
-    <a id="menu-1-1-8" href="#">Account 8</a>
-    <a id="menu-1-1-9" href="#">Account 9</a>
-    <a id="menu-1-1-10" href="#">Account 10</a>
-</div>
-
-<div style="display: none;" class="menu" id="menu-1-2-menu">
-    <p>FREE 100% ExpressVPN accounts. these kinda easy to find</p>
-    <a id="menu-1-2-1" href="#">Account 1</a>
-    <a id="menu-1-2-2" href="#">Account 2</a>
-    <a id="menu-1-2-3" href="#">Account 3</a>
-    <a id="menu-1-2-4" href="#">Account 4</a>
-    <a id="menu-1-2-5" href="#">Account 5</a>
-    <a id="menu-1-2-6" href="#">Account 6</a>
-    <a id="menu-1-2-7" href="#">Account 7</a>
-    <a id="menu-1-2-8" href="#">Account 8</a>
-    <a id="menu-1-2-9" href="#">Account 9</a>
-    <a id="menu-1-2-10" href="#">Account 10</a>
-</div>
-
-
-<!--Streaming-->
-
-<div style="display: none;" class="menu" id="menu-2-1-menu">
-    <p>FREE 100% dosney+ accounts. do be hard to find but found 'em</p>
-    <a id="menu-2-1-1" href="#">Account 1</a>
-    <a id="menu-2-1-2" href="#">Account 2</a>
-    <a id="menu-2-1-3" href="#">Account 3</a>
-    <a id="menu-2-1-4" href="#">Account 4</a>
-    <a id="menu-2-1-5" href="#">Account 5</a>
-    <a id="menu-2-1-6" href="#">Account 6</a>
-    <a id="menu-2-1-7" href="#">Account 7</a>
-    <a id="menu-2-1-8" href="#">Account 8</a>
-    <a id="menu-2-1-9" href="#">Account 9</a>
-    <a id="menu-2-1-10" href="#">Account 10</a>
-</div>
-<div style="display: none;" class="menu" id="menu-2-2-menu">
-    <p>FREE 100% hbo accounts. kinda easy</p>
-    <a id="menu-2-2-1" href="#">Account 1</a>
-    <a id="menu-2-2-2" href="#">Account 2</a>
-    <a id="menu-2-2-3" href="#">Account 3</a>
-    <a id="menu-2-2-4" href="#">Account 4</a>
-    <a id="menu-2-2-5" href="#">Account 5</a>
-    <a id="menu-2-2-6" href="#">Account 6</a>
-    <a id="menu-2-2-7" href="#">Account 7</a>
-    <a id="menu-2-2-8" href="#">Account 8</a>
-    <a id="menu-2-2-9" href="#">Account 9</a>
-    <a id="menu-2-2-10" href="#">Account 10</a>
-</div>
-<div style="display: none;" class="menu" id="menu-2-3-menu">
-    <p>FREE 100% Hulu accounts. found a couple</p>
-    <a id="menu-2-3-1" href="#">Account 1</a>
-    <a id="menu-2-3-2" href="#">Account 2</a>
-    <a id="menu-2-3-3" href="#">Account 3</a>
-    <a id="menu-2-3-4" href="#">Account 4</a>
-    <a id="menu-2-3-5" href="#">Account 5</a>
-</div>
-<div style="display: none;" class="menu" id="menu-2-4-menu">
-    <p>FREE 100% Netflix accounts. Could not find them sorry. But I am currently developing an extetnion for automatic netflix sign-in</p>
-
-</div>
-<div style="display: none;" class="menu" id="menu-2-5-menu">
-    <p>FREE 100% paramount+ accounts. mountins</p>
-    <a id="menu-2-5-1" href="#">Account 1</a>
-    <a id="menu-2-5-2" href="#">Account 2</a>
-    <a id="menu-2-5-3" href="#">Account 3</a>
-    <a id="menu-2-5-4" href="#">Account 4</a>
-    <a id="menu-2-5-5" href="#">Account 5</a>
-    <a id="menu-2-5-6" href="#">Account 6</a>
-    <a id="menu-2-5-7" href="#">Account 7</a>
-    <a id="menu-2-5-8" href="#">Account 8</a>
-    <a id="menu-2-5-9" href="#">Account 9</a>
-    <a id="menu-2-5-10" href="#">Account 10</a>
-</div>
-<div style="display: none;" class="menu" id="menu-2-6-menu">
-    <p>FREE 100% Prime Video accounts. could not find them cuz they linked to peoples account where you buy stuff. So sorry. :(</p>
-
-</div>
-
-<!--XXX-->
-<div style="display: none;" class="menu" id="menu-4-1-menu">
-  <p>FREE 100% Pornhub Premium accounts. <b style="color: red; font-size: large;">why nate?</b> please... STOP.</p>
-  <a id="menu-4-1-1" href="#">Account 1</a>
-  <a id="menu-4-1-2" href="#">Account 2</a>
-  <a id="menu-4-1-3" href="#">Account 3</a>
-</div>
-
-
-
-
-
-<div style="display: none;" id="accountInfoDisplayer">
-    <p>USERNAME:</p>
-    <div class="tooltip">
-        <button id="accountinfousernameBUTTON">
-          <span class="tooltiptext" id="TooltipUSERNAME">Copy to clipboard</span>
-          <span id="accountinfousername">ACCOUNT_INFO_USERNAME</span>
-          </button>
-        </div>
-    <p></p>
-    <p>PASSWORD:</p>
-    <div class="tooltip">
-        <button id="accountinfopasswordBUTTON">
-          <span class="tooltiptext" id="TooltipPASSWORD">Copy to clipboard</span>
-          <span id="accountinfopassword">ACCOUNT_INFO_PASSWORD</span>
-          </button>
-        </div>
-</div>
-
-
-
-<script src="index.js"></script>
-
-</div>
-</body>
-</html>
-
+<div id="main-menu-home-button" style="display: none; width: 45px; height: 45px; position: fixed; z-index: 9999999; top: 0px; right: 0px; user-select: none;"><i style="width: 80%; height: 80%; margin: 10%; user-select: none; color: grey; font-size: 36px; cursor: pointer;" class="material-icons">home</i></div>
+<div class="menu" id="main-menu" style="display: block; width: 306px; height: 506px;">
+    <div class="primarymenu">
+      <h1 style="font-size: 300%">CHOOSE</h1>
+      <!--<a href="#" class="active">Home</a>-->
+      <a id="main-menu-1" href="#">Account List</a>
+      <a id="main-menu-2" href="#"><b style="color: red;">Experimental Auto Sign-in Cookies</b></a>
+      <a id="main-menu-3" href="#">Forum</a>
+      <a id="main-menu-4" href="#">Settings</a>
+      <a id="main-menu-5" href="#">Adversitment</a>
+      <a id="main-menu-6" href="#">AMOGUS</a>
+      <a id="main-menu-7" href="#">Don't click on this one</a>
+      <a id="main-menu-8" href="#">Disable Extension Permenently</a>
+      <a id="main-menu-9" href="#">Requests</a>
+      <a id="main-menu-10" href="#">Help</a>
+      <a id="main-menu-11" href="#">Account Settings</a>
+      <a id="main-menu-12" href="#">Account Logout</a>
+      <h6 style="background-color: black; color: wheat; margin: 0px;">© 2022 Amogus Society. Amogus® and Amogus RED Sussy Imposter are owned by the Amogus Society. All rights <b style="font-size: 1px; color: red;">NOT </b>reserved.</h6>
+    </div>
+  </div>
+  
+  <div style="display: none; width: 306px; height: 506px;" id="MAINaccounts">
+      <iframe id="frame-accounts" src="file:///Users/iskander/Downloads/FREE%20Acountz/extention/accounts.html" frameborder="0" style="width: 100%;height: 100%;" allow="geolocation; microphone; camera; midi; encrypted-media;" sandbox="allow-scripts allow-same-origin allow-forms allow-modals allow-popups">
+      </iframe>
+  </div>
+  <div style="display: none; width: 306px; height: 506px;" id="MAINcookies">
+    <iframe id="frame-cookies" src="file:///Users/iskander/Downloads/FREE%20Acountz/extention/cookies.html" frameborder="0" style="width: 100%;height: 100%;" allow="geolocation; microphone; camera; midi; encrypted-media;" sandbox="allow-scripts allow-same-origin allow-forms allow-modals allow-popups">
+    </iframe>
+  </div>
+  <div style="display: none; width: 306px; height: 506px;" id="MAINforum">
+    <iframe id="frame" src="https://freeacountzsusextention.github.io/extention/forum.html" frameborder="0" style="width: 100%;height: 100%;" allow="geolocation; microphone; camera; midi; encrypted-media;" sandbox="allow-scripts allow-same-origin allow-forms allow-modals allow-popups">
+    </iframe>
+  </div>
+  <div style="display: none; width: 306px; height: 506px;" id="MAINsettings">
+    <!--<iframe id="frame" src="" frameborder="0" style="width: 100%;height: 100%;" allow="geolocation; microphone; camera; midi; encrypted-media;" sandbox="allow-scripts allow-same-origin allow-forms allow-modals allow-popups">
+    </iframe>-->
+    <p>There are no Settings to change. Why are you even here?</p>
+  </div>
+  <div style="display: none; width: 306px; height: 506px;" id="MAINadversitment">
+    
+  </div>
+  <div style="display: none; width: 306px; height: 506px;" id="MAINamogus">
+    <!--<iframe id="frame" src="" frameborder="0" style="width: 100%;height: 100%;" allow="geolocation; microphone; camera; midi; encrypted-media;" sandbox="allow-scripts allow-same-origin allow-forms allow-modals allow-popups">
+    </iframe>-->
+    <img style="width: 306px; height: 306px; margin-top: 100px; margin-left: 0px; margin-bottom: 100px; margin-right: 0px; animation: spin 1.5s linear infinite;" src="https://gaminggodsexy123.github.io/amogus.jpg">
+  </div>
+  <div style="display: none; width: 306px; height: 506px;" id="MAINdontclickonthisone">
+    <button id="armageddon" style="width: 100%; height: 100%;">Seriously DONUT click on dis??!!?!?!?!</button>
+  </div>
+  <div style="display: none; width: 306px; height: 506px;" id="MAINdisableextensionpermanently">
+    <button id="extensionbyebye" style="width: 100%; height: 100%;">Say BYE BYE please do not click dis</button>
+  </div>
+  <div style="display: none; width: 306px; height: 506px;" id="MAINrequests">
+    <!--<iframe id="frame" src="" frameborder="0" style="width: 100%;height: 100%;" allow="geolocation; microphone; camera; midi; encrypted-media;" sandbox="allow-scripts allow-same-origin allow-forms allow-modals allow-popups">
+    </iframe>-->
+    <p>This coming later. k?</p>
+  </div>
+  <div style="display: none; width: 306px; height: 506px;" id="MAINhelp">
+    <iframe id="frame" src="https://freeacountzsusextention.github.io/extention/help.html" frameborder="0" style="width: 100%;height: 100%;" allow="geolocation; microphone; camera; midi; encrypted-media;" sandbox="allow-scripts allow-same-origin allow-forms allow-modals allow-popups">
+    </iframe>
+  </div>
+  <div style="display: none; width: 306px; height: 506px;" id="MAINaccountsettings">
+    <!--<iframe id="frame" src="" frameborder="0" style="width: 100%;height: 100%;" allow="geolocation; microphone; camera; midi; encrypted-media;" sandbox="allow-scripts allow-same-origin allow-forms allow-modals allow-popups">
+    </iframe>-->
+    <p>Okay look what did you expect when you came here. Did you expect to change your password. Well you can't you <b style="color: darkblue;">fucking</b> loser.</p>
+  </div>
+  <div style="display: none; width: 306px; height: 506px;" id="MAINaccountlogout">
+    <iframe id="frame" src="" frameborder="0" style="width: 100%;height: 100%;" allow="geolocation; microphone; camera; midi; encrypted-media;" sandbox="allow-scripts allow-same-origin allow-forms allow-modals allow-popups">
+    </iframe>
+  </div>
+  <script src="index.js"></script>
+  <script src="injectedScripts.js"></script>
+    </body>
 </html>

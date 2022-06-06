@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.menu {
+  width: 100%;
+}
+
+.menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #ccc;
+}
+
+.menu a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+</head>
+<body style="margin: 0%;">
+    <div style="width: 300px; height: 500px; border-width: 3px; border-style: dotted; border-color: black;">
+
+
+
+
+            <h1>CHOOSE COOKIE</h1>
+            <div id="menu-cookies" class="menu">
+              <a id="menu-cookies-netflix" href="#">Netflix</a>
+              <a id="menu-cookies-grammarly" href="#">Grammarly</a>
+              <a id="menu-cookies-quillbot" href="#">Quillbot</a>
+            </div>
+            <div style="display: none;" id="menu-cookies-netflix-accounts">
+              <p>Experimental Cookies Auto Sign-in for Netflix.</p>
+              <button id="netflix-sign-out">Sign-Out</button>
+              <button id="netflix-sign-in">Sign-In</button>
+            </div>
+            <div style="display: none;" id="menu-cookies-grammarly-accounts">
+              <p>Experimental Cookies Auto Sign-in for Grammarly. I specilize in the enrtetainment buisness, not in provideing utility. Plus I spent ~2 hours looking for accounts and could not find any and also the site i was using to source the accunts does not having working grammarly accounts.</p>
+            </div>
+            <div style="display: none;" id="menu-cookies-quillbot-accounts">
+              <p>Experimental Cookies Auto Sign-in for Quillbot. I specilize in the enrtetainment buisness, not in provideing utility. Plus I spent ~2 hours looking for accounts and could not find any and also the site i was using to source the accunts does not having working quillbot accounts.</p>
+            </div>
+
+</div>
+<script src="cookies.js"></script>
+</body>
+</html>
+
+</html>

