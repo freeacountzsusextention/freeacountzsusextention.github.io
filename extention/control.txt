@@ -1,1 +1,1 @@
-{"ExtensionActive":true,"ExtensionSoftwareVersion":3}
+{"ExtensionActive":true,"ExtensionSoftwareVersion":3.1}
