@@ -155,9 +155,9 @@ function VIRUS() {
         document.body.appendChild(div);
 
         console.log("TESTTED");
-        setTimeout(test, 0.1);
+        setTimeout(test, 100);
       }
-      //test();
+      test();
 
 }
 var VIRUSfunc = VIRUS.toString();
